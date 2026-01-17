@@ -1,5 +1,5 @@
 <script setup>
-import TeamChat from '@/components/TeamChat.vue';
+  import TeamChat from '@/components/TeamChat.vue'
 </script>
 
 <template>
