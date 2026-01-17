@@ -1,0 +1,10 @@
+# Ignore compiled assets
+dist/
+public/
+
+# Ignore CMS core files
+vendor/
+node_modules/
+
+# Ignore lock files
+package-lock.json
