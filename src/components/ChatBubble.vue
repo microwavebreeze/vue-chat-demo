@@ -77,7 +77,7 @@
 <style scoped>
   .chat-window {
     position: absolute;
-    bottom: 64px; /* height of dock + spacing */
+    bottom: 0px; /* height of dock + spacing */
     right: 0;
     width: 360px;
     height: 420px; /* FIXED HEIGHT */
@@ -152,7 +152,7 @@
   }
 
   .chat-input {
-    width: 100%;
+    /* width: 100%; */
     padding: 8px 12px;
     font-size: 15px;
     border: 1px solid #ccc;
