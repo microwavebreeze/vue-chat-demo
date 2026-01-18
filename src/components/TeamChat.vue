@@ -40,7 +40,6 @@
     justify-content: flex-end;
     align-items: flex-end;
     gap: 12px;
-    padding: 8px 16px;
     pointer-events: auto;
   }
 

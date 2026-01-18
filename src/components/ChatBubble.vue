@@ -80,11 +80,10 @@
     bottom: 0px; /* height of dock + spacing */
     right: 0;
     width: 360px;
-    height: 420px; /* FIXED HEIGHT */
+    height: 420px;
     max-height: calc(100vh - 96px);
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 12px 12px 0 0;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -98,8 +97,6 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
   }
 
   .chat-title {

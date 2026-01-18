@@ -46,17 +46,20 @@
 <style scoped>
   .contact-list-container {
     position: relative;
+    background-color: #3b82f6;
   }
 
   .contact-list-trigger {
-    background: #fff;
-    border: 1px solid #ccc;
-    padding: 14px 22px;
-    border-radius: 10px;
+    background: #3b82f6;
+    border: 1px solid white;
+    padding: 10px 22px;
+    margin-top: 3px;
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3px;
+    margin-left: 3px;
+    color: white;
   }
 
   .contact-list-trigger:hover {
@@ -66,16 +69,13 @@
   .contact-menu {
     position: absolute;
     bottom: 100%;
-    right: 0;
+    left: 0;
     width: 260px;
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4px;
     display: flex;
     flex-direction: column;
-    /* border-top: solid 3px black; */
   }
 
   .contact-menu-header {
